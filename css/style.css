@@ -34,7 +34,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
     padding: 50px 100px;
 }
 
@@ -49,10 +49,12 @@ ul{
     font-size: 24px;
 }
 button{
-    padding: 8px 16px;
+    margin-top: 10px;
+    padding: 8px 25px;
     border-radius: 8px;
     background: #3883F6;
     flex-shrink: 0;
+    color:white;
 }
 
 .container{
@@ -61,9 +63,10 @@ display: flex;
 align-items: baseline;
 justify-content: center;
 gap: 15px;
+padding-bottom: 30px
 }
 .info{
-    max-width: 200px;
+    max-width: 150px;
 }
 .rounded-covers{
     border-radius: 25px;
@@ -73,17 +76,29 @@ gap: 15px;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     text-align: center;
     padding: 25px;
 }
 
-/* .quote-section{
+.quote-section{
     background-color: #e5e7eb;
     text-align: center;
     display:flex;
     align-items: center;
-} */
+    padding: 0px  150px;
+}
+blockquote p{
+    font-size: 36px;
+    font-style: italic;
+}
+figcaption{
+    font-weight: bolder;
+    font-size: larger;
+    text-align: right;
+}
+
+
 
 
 .footer{
