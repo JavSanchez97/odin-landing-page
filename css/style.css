@@ -1,6 +1,7 @@
 body{
     /* height: 100vh; */
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family:Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -98,8 +99,37 @@ figcaption{
     text-align: right;
 }
 
+.test{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
 
+.call-to-action{
+    background: #3883F6;
+    margin: 50px  200px;
+    border-radius: 5px;
+    padding: 10px 80px;
+    display: flex;
+    color: white;
+    align-items: center;
+    
+}
+.CTA-text{
+    text-align: left;
+    flex: 1;
+}
+.CTA-text p{
+    margin: 5px 30px 30px 50px;
+}
+.CTA-text h3{
+    margin: 30px 0px 0px 50px;
+}
 
+.cta-button{
+    border-color: white;
+    border-radius: 8px;
+}
 
 .footer{
     display: flex;
